@@ -31,11 +31,16 @@ if (listaMail.includes(mail)) {
   console.log("Accesso negato");
 }
 
-// Con il ciclo
-/*
-for (i = 0; i < listaMail.length; i++) {
-  if (mail == listaMail[i]) {
-    console.log("Accesso riuscito");
-  }
-}
-*/
+// Con il ciclo (Scommentalo se vuoi vedere cosa fa)
+// var mailcheck = false;
+
+// for (i = 0; i < listaMail.length; i++) {
+//   if (mail == listaMail[i]) {
+//     console.log("Accesso riuscito");
+//     mailcheck = true;
+//   }
+// }
+
+// if (mailcheck == false) {
+//   console.log("Accesso negato");
+// }
