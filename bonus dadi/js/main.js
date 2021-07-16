@@ -10,12 +10,17 @@ function lanciaDadi() {
 
   console.log("Il giocatore ha tirato il dado ed è uscito: " + dadoGiocatore);
   console.log("Il computer ha tirato il dado ed è uscito: " + dadoComputer);
+  document.getElementById("dadoGiocatore").value = dadoGiocatore;
+  document.getElementById("dadoComputer").value = dadoComputer;
 
   if (dadoGiocatore > dadoComputer) {
     console.log("Il giocatore ha vinto");
+    document.getElementById("vincitore").value = "Il giocatore ha vinto";
   } else if (dadoComputer > dadoGiocatore) {
     console.log("Il computer ha vinto");
+    document.getElementById("vincitore").value = "Il computer ha vinto";
   } else {
     console.log("Nessun vincitore");
+    document.getElementById("vincitore").value = "Nessun vincitore";
   }
 }

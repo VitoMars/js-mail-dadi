@@ -25,10 +25,15 @@
        </div>
 
       <div class="text-center my-5">
-        <div class="tiroGiocatore">
-           Tiro del Giocatore: <div onclick="lanciaDadi()" class="div"></div>
+         <div class="tiroGiocatore">
+           Tiro del Giocatore: <input type="text" readonly="" class="form-control-color" id="dadoGiocatore" value="">
          </div>
-        <div class="tiroComputer">Tiro del Computer:</div>
+         <div class="tiroComputer">
+           Tiro del Computer: <input type="text" readonly="" class="form-control-color" id="dadoComputer" value="">
+         </div>
+         <div class="vincitore my-3">
+            <input type="text" readonly="" class="form-control text-center bg-dark text-warning" id="vincitore" value="">
+         </div>
       </div>
 
     <script src="js/main.js"></script>
