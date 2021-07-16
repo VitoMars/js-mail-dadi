@@ -24,8 +24,23 @@ var listaMail = ["vito95v@gmail.com", "dariobosco@mailstrana.com"];
 
 var mail = prompt("Inserisci la tua mail:");
 
+// Senza ciclo
 if (listaMail.includes(mail)) {
   console.log("Accesso riuscito");
 } else {
   console.log("Accesso negato");
 }
+
+// Con il ciclo (Scommentalo se vuoi vedere cosa fa)
+// var mailcheck = false;
+
+// for (i = 0; i < listaMail.length; i++) {
+//   if (mail == listaMail[i]) {
+//     console.log("Accesso riuscito");
+//     mailcheck = true;
+//   }
+// }
+
+// if (mailcheck == false) {
+//   console.log("Accesso negato");
+// }
