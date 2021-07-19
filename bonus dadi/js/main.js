@@ -5,8 +5,8 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 */
 
 function lanciaDadi() {
-  var dadoGiocatore = Math.floor(Math.random() * 6);
-  var dadoComputer = Math.floor(Math.random() * 6);
+  var dadoGiocatore = Math.floor(Math.random() * 6 + 1);
+  var dadoComputer = Math.floor(Math.random() * 6 + 1);
 
   console.log("Il giocatore ha tirato il dado ed è uscito: " + dadoGiocatore);
   console.log("Il computer ha tirato il dado ed è uscito: " + dadoComputer);
